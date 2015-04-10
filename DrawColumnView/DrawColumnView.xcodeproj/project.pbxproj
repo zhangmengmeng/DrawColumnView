@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6334641ACCEAB200CA380A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6334631ACCEAB200CA380A /* Foundation.framework */; };
+		CC6334661ACCEAB200CA380A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6334651ACCEAB200CA380A /* CoreGraphics.framework */; };
+		CC6334681ACCEAB200CA380A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6334671ACCEAB200CA380A /* UIKit.framework */; };
+		CC63346E1ACCEAB200CA380A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC63346C1ACCEAB200CA380A /* InfoPlist.strings */; };
+		CC6334701ACCEAB200CA380A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63346F1ACCEAB200CA380A /* main.m */; };
+		CC6334741ACCEAB200CA380A /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6334731ACCEAB200CA380A /* QYAppDelegate.m */; };
+		CC6334771ACCEAB200CA380A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6334751ACCEAB200CA380A /* Main.storyboard */; };
+		CC63347A1ACCEAB200CA380A /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6334791ACCEAB200CA380A /* QYViewController.m */; };
+		CC63347C1ACCEAB200CA380A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC63347B1ACCEAB200CA380A /* Images.xcassets */; };
+		CC6334831ACCEAB200CA380A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6334821ACCEAB200CA380A /* XCTest.framework */; };
+		CC6334841ACCEAB200CA380A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6334631ACCEAB200CA380A /* Foundation.framework */; };
+		CC6334851ACCEAB200CA380A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6334671ACCEAB200CA380A /* UIKit.framework */; };
+		CC63348D1ACCEAB200CA380A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC63348B1ACCEAB200CA380A /* InfoPlist.strings */; };
+		CC63348F1ACCEAB200CA380A /* DrawColumnViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63348E1ACCEAB200CA380A /* DrawColumnViewTests.m */; };
+		CC63349A1ACCEB2300CA380A /* QYColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6334991ACCEB2300CA380A /* QYColumnView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6334861ACCEAB200CA380A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6334581ACCEAB200CA380A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC63345F1ACCEAB200CA380A;
+			remoteInfo = DrawColumnView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6334601ACCEAB200CA380A /* DrawColumnView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawColumnView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6334631ACCEAB200CA380A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC6334651ACCEAB200CA380A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC6334671ACCEAB200CA380A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC63346B1ACCEAB200CA380A /* DrawColumnView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawColumnView-Info.plist"; sourceTree = "<group>"; };
+		CC63346D1ACCEAB200CA380A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC63346F1ACCEAB200CA380A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6334711ACCEAB200CA380A /* DrawColumnView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawColumnView-Prefix.pch"; sourceTree = "<group>"; };
+		CC6334721ACCEAB200CA380A /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CC6334731ACCEAB200CA380A /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CC6334761ACCEAB200CA380A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6334781ACCEAB200CA380A /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CC6334791ACCEAB200CA380A /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CC63347B1ACCEAB200CA380A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC6334811ACCEAB200CA380A /* DrawColumnViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawColumnViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6334821ACCEAB200CA380A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC63348A1ACCEAB200CA380A /* DrawColumnViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawColumnViewTests-Info.plist"; sourceTree = "<group>"; };
+		CC63348C1ACCEAB200CA380A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC63348E1ACCEAB200CA380A /* DrawColumnViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawColumnViewTests.m; sourceTree = "<group>"; };
+		CC6334981ACCEB2300CA380A /* QYColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYColumnView.h; sourceTree = "<group>"; };
+		CC6334991ACCEB2300CA380A /* QYColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYColumnView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC63345D1ACCEAB200CA380A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6334661ACCEAB200CA380A /* CoreGraphics.framework in Frameworks */,
+				CC6334681ACCEAB200CA380A /* UIKit.framework in Frameworks */,
+				CC6334641ACCEAB200CA380A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC63347E1ACCEAB200CA380A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6334831ACCEAB200CA380A /* XCTest.framework in Frameworks */,
+				CC6334851ACCEAB200CA380A /* UIKit.framework in Frameworks */,
+				CC6334841ACCEAB200CA380A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6334571ACCEAB200CA380A = {
+			isa = PBXGroup;
+			children = (
+				CC6334691ACCEAB200CA380A /* DrawColumnView */,
+				CC6334881ACCEAB200CA380A /* DrawColumnViewTests */,
+				CC6334621ACCEAB200CA380A /* Frameworks */,
+				CC6334611ACCEAB200CA380A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6334611ACCEAB200CA380A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6334601ACCEAB200CA380A /* DrawColumnView.app */,
+				CC6334811ACCEAB200CA380A /* DrawColumnViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6334621ACCEAB200CA380A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6334631ACCEAB200CA380A /* Foundation.framework */,
+				CC6334651ACCEAB200CA380A /* CoreGraphics.framework */,
+				CC6334671ACCEAB200CA380A /* UIKit.framework */,
+				CC6334821ACCEAB200CA380A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6334691ACCEAB200CA380A /* DrawColumnView */ = {
+			isa = PBXGroup;
+			children = (
+				CC6334721ACCEAB200CA380A /* QYAppDelegate.h */,
+				CC6334731ACCEAB200CA380A /* QYAppDelegate.m */,
+				CC6334751ACCEAB200CA380A /* Main.storyboard */,
+				CC6334781ACCEAB200CA380A /* QYViewController.h */,
+				CC6334791ACCEAB200CA380A /* QYViewController.m */,
+				CC6334981ACCEB2300CA380A /* QYColumnView.h */,
+				CC6334991ACCEB2300CA380A /* QYColumnView.m */,
+				CC63347B1ACCEAB200CA380A /* Images.xcassets */,
+				CC63346A1ACCEAB200CA380A /* Supporting Files */,
+			);
+			path = DrawColumnView;
+			sourceTree = "<group>";
+		};
+		CC63346A1ACCEAB200CA380A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC63346B1ACCEAB200CA380A /* DrawColumnView-Info.plist */,
+				CC63346C1ACCEAB200CA380A /* InfoPlist.strings */,
+				CC63346F1ACCEAB200CA380A /* main.m */,
+				CC6334711ACCEAB200CA380A /* DrawColumnView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6334881ACCEAB200CA380A /* DrawColumnViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC63348E1ACCEAB200CA380A /* DrawColumnViewTests.m */,
+				CC6334891ACCEAB200CA380A /* Supporting Files */,
+			);
+			path = DrawColumnViewTests;
+			sourceTree = "<group>";
+		};
+		CC6334891ACCEAB200CA380A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC63348A1ACCEAB200CA380A /* DrawColumnViewTests-Info.plist */,
+				CC63348B1ACCEAB200CA380A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC63345F1ACCEAB200CA380A /* DrawColumnView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6334921ACCEAB200CA380A /* Build configuration list for PBXNativeTarget "DrawColumnView" */;
+			buildPhases = (
+				CC63345C1ACCEAB200CA380A /* Sources */,
+				CC63345D1ACCEAB200CA380A /* Frameworks */,
+				CC63345E1ACCEAB200CA380A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawColumnView;
+			productName = DrawColumnView;
+			productReference = CC6334601ACCEAB200CA380A /* DrawColumnView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6334801ACCEAB200CA380A /* DrawColumnViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6334951ACCEAB200CA380A /* Build configuration list for PBXNativeTarget "DrawColumnViewTests" */;
+			buildPhases = (
+				CC63347D1ACCEAB200CA380A /* Sources */,
+				CC63347E1ACCEAB200CA380A /* Frameworks */,
+				CC63347F1ACCEAB200CA380A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6334871ACCEAB200CA380A /* PBXTargetDependency */,
+			);
+			name = DrawColumnViewTests;
+			productName = DrawColumnViewTests;
+			productReference = CC6334811ACCEAB200CA380A /* DrawColumnViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6334581ACCEAB200CA380A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hnqingyun.com;
+				TargetAttributes = {
+					CC6334801ACCEAB200CA380A = {
+						TestTargetID = CC63345F1ACCEAB200CA380A;
+					};
+				};
+			};
+			buildConfigurationList = CC63345B1ACCEAB200CA380A /* Build configuration list for PBXProject "DrawColumnView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6334571ACCEAB200CA380A;
+			productRefGroup = CC6334611ACCEAB200CA380A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC63345F1ACCEAB200CA380A /* DrawColumnView */,
+				CC6334801ACCEAB200CA380A /* DrawColumnViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC63345E1ACCEAB200CA380A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC63347C1ACCEAB200CA380A /* Images.xcassets in Resources */,
+				CC63346E1ACCEAB200CA380A /* InfoPlist.strings in Resources */,
+				CC6334771ACCEAB200CA380A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC63347F1ACCEAB200CA380A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC63348D1ACCEAB200CA380A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC63345C1ACCEAB200CA380A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC63349A1ACCEB2300CA380A /* QYColumnView.m in Sources */,
+				CC6334741ACCEAB200CA380A /* QYAppDelegate.m in Sources */,
+				CC6334701ACCEAB200CA380A /* main.m in Sources */,
+				CC63347A1ACCEAB200CA380A /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC63347D1ACCEAB200CA380A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC63348F1ACCEAB200CA380A /* DrawColumnViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6334871ACCEAB200CA380A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC63345F1ACCEAB200CA380A /* DrawColumnView */;
+			targetProxy = CC6334861ACCEAB200CA380A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC63346C1ACCEAB200CA380A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC63346D1ACCEAB200CA380A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC6334751ACCEAB200CA380A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6334761ACCEAB200CA380A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC63348B1ACCEAB200CA380A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC63348C1ACCEAB200CA380A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6334901ACCEAB200CA380A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC6334911ACCEAB200CA380A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6334931ACCEAB200CA380A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawColumnView/DrawColumnView-Prefix.pch";
+				INFOPLIST_FILE = "DrawColumnView/DrawColumnView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC6334941ACCEAB200CA380A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawColumnView/DrawColumnView-Prefix.pch";
+				INFOPLIST_FILE = "DrawColumnView/DrawColumnView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC6334961ACCEAB200CA380A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrawColumnView.app/DrawColumnView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawColumnView/DrawColumnView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DrawColumnViewTests/DrawColumnViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC6334971ACCEAB200CA380A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrawColumnView.app/DrawColumnView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawColumnView/DrawColumnView-Prefix.pch";
+				INFOPLIST_FILE = "DrawColumnViewTests/DrawColumnViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC63345B1ACCEAB200CA380A /* Build configuration list for PBXProject "DrawColumnView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6334901ACCEAB200CA380A /* Debug */,
+				CC6334911ACCEAB200CA380A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6334921ACCEAB200CA380A /* Build configuration list for PBXNativeTarget "DrawColumnView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6334931ACCEAB200CA380A /* Debug */,
+				CC6334941ACCEAB200CA380A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6334951ACCEAB200CA380A /* Build configuration list for PBXNativeTarget "DrawColumnViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6334961ACCEAB200CA380A /* Debug */,
+				CC6334971ACCEAB200CA380A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6334581ACCEAB200CA380A /* Project object */;
+}
